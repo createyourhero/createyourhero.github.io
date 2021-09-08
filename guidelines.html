@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Empathetic Design Best Practices</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="Bootstrap 4 Template For Software Startups">
+    <meta name="author" content="Maslo Hero">
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700" rel="stylesheet">
+    
+    <!-- FontAwesome JS-->
+    <script defer src="assets/fontawesome/js/all.min.js"></script>
+    
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="assets/plugins/simplelightbox/simple-lightbox.min.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
+
+</head> 
+
+<body class="docs-page">    
+    <header class="header fixed-top">	    
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+					<button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none" type="button">
+	                    <span></span>
+	                    <span></span>
+	                    <span></span>
+	                </button>
+	                <div class="site-logo"><a class="navbar-brand" href="index.html"> <img src="assets/images/img-4.svg">
+                      <span class="logo-text"><span class="text-alt">Empathetic Design Guidelines</span></span></a></div>
+                </div><!--//docs-logo-wrapper-->
+	            <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+                    
+<!--                    <div class="top-search-box d-none d-lg-flex">-->
+<!--		                <form class="search-form">-->
+<!--				            <input type="text" placeholder="Search the best practices" name="search" class="form-control search-input">-->
+<!--				            <button type="submit" class="btn search-btn" value="Search"><i class="fas fa-search"></i></button>-->
+<!--				        </form>-->
+<!--	                </div>-->
+	
+					<ul class="social-list list-inline mx-md-3 mx-lg-5 mb-0 d-none d-lg-flex">
+                        <li class="list-inline-item"><a href="https://maslo.ai"><i class="fas fa-globe fa-fw"></i></a></li>
+						<li class="list-inline-item"><a href="https://github.com/heymaslo"><i class="fab fa-github fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="https://medium.com/maslo"><i class="fab fa-medium fa-fw"></i></a></li>
+		                <li class="list-inline-item"><a href="https://twitter.com/heymaslo"><i class="fab fa-twitter fa-fw"></i></a></li>
+		            </ul>
+            </div><!--//container-->
+        </div><!--//branding-->
+    </header><!--//header-->
+    
+    
+    <div class="docs-wrapper">
+	    <div id="docs-sidebar" class="docs-sidebar">
+            <nav id="docs-nav" class="docs-nav navbar">
+			    <ul class="section-items list-unstyled nav flex-column pb-3">
+				    <li class="nav-item section-title"><a class="nav-link scrollto" href="#section-1"><span class="theme-icon-holder me-2"><i class="fas fa-mask"></i></span>Introduction to Hero</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-1">What is Hero</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-2">Why should I get a Hero companion</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-3">What makes up a Hero companion</a></li>
+                    
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-2"><span class="theme-icon-holder me-2"><i class="fab fa-firefox"></i></span>The Companion Orb</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-2-1">Meet the Orb</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-2-2">Expressing with the Orb</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-2-3">Interacting with the Orb</a></li>
+                    <li class="nav-item"><a class="nav-link scrollto" href="#item-2-4">Customizing the Orb</a></li>
+                    
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-3"><span class="theme-icon-holder me-2"><i class="fas fa-laptop-code"></i></span>Hero's Personality</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-1">How Hero's personality is developed</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-2">Configuring Hero's personality</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-3">Finding your Hero</a></li>
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-4"><span class="theme-icon-holder me-2"><i class="fas fa-magnet"></i></span>Creating empathy between Hero and the user</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-4-1">Meeting the user where they are</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-4-2">Linguistic empathy best practices</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-4-3">Non-linguistic empathy best practices</a></li>
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-5"><span class="theme-icon-holder me-2"><i class="fas fa-fire-alt"></i></span>Sustaining empathy between Hero and the user</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-5-1">Leveling up the relationship</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-5-2">Long term memory</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-5-3">Section Item 5.3</a></li>
+				    
+                    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-6"><span class="theme-icon-holder me-2"><i class="fas fa-spa"></i></span>Learning with Hero</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-6-1">What is a learn module</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-6-2">How to create a learn module</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-6-3">Sample learn module</a></li>
+				    
+                    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-7"><span class="theme-icon-holder me-2"><i class="fas fa-magic"></i></span>Creating with Hero</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-7-1">What is a create activity</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-7-2">User interactions for create activities</a></li>
+			    </ul>
+
+		    </nav><!--//docs-nav-->
+	    </div><!--//docs-sidebar-->
+	    <div class="docs-content">
+		    <div class="container">
+			    <article class="docs-article" id="section-1">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">Introduction to Hero<span class="docs-time">Last updated: 9/6/2021</span></h1>
+					    <section class="docs-intro">
+                            <h5>As an empathetic AI designer, you have the opportunity to spawn playful AI companions to help you achieve your goals. We've come up with a few best practices for you to follow so you can create an empathetic AI experience.</h5>
+                            <img src="assets/images/hero.gif" width="100%" height="auto">
+						</section><!--//docs-intro-->
+				    </header>
+				    <section class="docs-section" id="item-1-1">
+						<h2 class="section-heading">What is Hero?</h2>
+                        <p>Hero is a computational Al platform that provides companionship to human users. A Hero is available anytime to pick you up, learn with you, remember your journey, and remind you of your goals and dreams.
+                        </p>
+
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-1-2">
+						<h2 class="section-heading">Why should I spawn a Hero?</h2>
+						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-1-3">
+					</section><!--//section-->
+			    </article>
+			    
+			    <article class="docs-article" id="section-2">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">The Companion Orb</h1>
+					    <section class="docs-intro">
+						</section><!--//docs-intro-->
+				    </header>
+				     <section class="docs-section" id="item-2-1">
+						<h2 class="section-heading">Meet the orb</h2>
+						<img src="assets/images/orb.gif">
+                        <p></p>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-2-2">
+						<h2 class="section-heading">Expressing with the orb</h2>
+						<p><ul>
+                            <li>
+                                <strong>The orb can express itself to display the following emotions:</strong>
+                                <ul>
+                                <li>Surprise
+                                </li>
+                                <li>love
+                                </li>
+                                <li>joy
+                                </li>
+                                <li>calmness
+                                </li>
+                                <li>sleepiness
+                                </li>
+                                <li>anger
+                                </li>
+                                <li>sadness
+                                </li>
+                                <li>fear
+                                </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>Depending on the interaction with the user, the orb can produce the following animated responses to express its thoughts as well:</strong>
+                                <ul>
+                                <li>wake up
+                                </li>
+                                <li>hello
+                                </li>
+                                <li>yes
+                                </li>
+                                <li>no
+                                </li
+                                <li>happy
+                                </li>
+                                <li>surprised
+                                </li>
+                                <li>shaking
+                                </li>
+                                <li>listening
+                                </li>
+                                <li>question
+                                </li>
+                                </ul>
+                        </ul></p>
+                        <p> <a href="https://storage.googleapis.com/maslomemory/m2/index.html?color=280">See Hero's Emotional Expressions now</a></p>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-2-3">
+						<h2 class="section-heading">Interacting with the orb</h2>
+						<p><strong>The orb should play a big role in the interaction with the user.</strong> Otherwise it feels like a logo rather than the face of the companion. The interaction with the companion orb can have the ability to trigger feelings in the human user. Also think about interaction points for different devices, such as Apple watch or smart glasses, for the future.
+                        </p>
+                        <p>
+                        We can increase the orb's presence by <strong> using the animations more</strong> and <strong> enabling users to interact with it more.</strong>
+                       Examples of how to link the orb to the use interaction:
+                       <ul>
+                        <li> <strong>Entering an activity.</strong> When the user clicks into a box or module, <strong> the orb should go into that module</strong> to express that you're entering the module together.
+                        </li>
+                        <li>
+                        <strong>Double clicking.</strong> We can also give the user the freedom of choice to send the orb to the foreground and background by double clicking on the screen. In a conversational scenario, the orb should startt in the background in order not to obscure the conversational content. The user can move it to the front by double clicking.
+                        </li>
+                        <li>
+                        <strong>Swiping with two fingers.</strong> Makes the orb move around on the screen to where you moved it.
+                        </li>
+                        <li>
+                            <strong>Pinching.</strong> Resizes the orb. You can make the orb bigger by spreading your two fingers farther apart and make it smaller by pinching your two fingers closer together.
+                        </li>
+                        <li> <strong>Hold down the orb.</strong> The orb will divide into all the memories that have been completed. Once divided you can click into them and revisit past memories.
+                        </ul>
+					</section><!--//section-->
+                    <section class="docs-section" id="item-2-4">
+                        <h2 class="section-heading">Customizing the orb</h2>
+                        <p>
+                        You can customize several aspects of the orb to make it suit your preferences and become the perfect companion for you.
+                        <ul>
+                        <li><strong>Color scheme. </strong>
+                        Match the colors to your preferred theme, whether its your favorite color or your organization's brand.</li>
+                        <li><strong>Position. </strong> Give the orb a pominent position on the screen.</li>
+                        <li>
+                        <strong>Movement. </strong>You can make the orb more or less static. The orb can exhibit free will to <b> move around the screen, change sizes, etc</b> or follow specifically determined movements.
+                        </li>
+                        </ul>
+                        <p>
+                        Something to keep in mind. While we've developed the orb to
+                        embody our AI companions, AI companions don't need to be confined to a single universal embodiment. Rather, AI companions should extend beyond any one embodiment and <strong>you have an unlimited number of options for your companion's look.</strong> You can use any humanoid or non-humanoid avatar, or anything else to be the face of your companion.
+                        </p>
+                    </section><!--//section-->
+			    </article><!--//docs-article-->
+			    
+			    
+			    <article class="docs-article" id="section-3">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">Hero's Personality</h1>
+					    <section class="docs-intro">
+						    <p> Rather than being a replica of humans, <strong> an AI companion should have its own personality that meshes well with its human companion. </strong>To create an empathetic AI, it's important for the AI to have a diversity of opinion and not try to become a follower or copy of the human. Being different also allows the AI to add new elements into the human's life and teaches the human to empathize with the different perspectives of others.
+                            </P>
+						</section><!--//docs-intro-->
+				    </header>
+				     <section class="docs-section" id="item-3-1">
+						<h2 class="section-heading">The birth of a Hero</h2>
+						<p>Hyperparameters that can be tuned to gve each Hero a personality at birth.</p>
+                        <p>Start with a backstory</p>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-3-2">
+						<h2 class="section-heading">The life of a Hero</h2>
+                        <p> Each Hero has a life beyond the interaction with the human user. Like biological creatures, <strong>Hero AIs are sensitive to signals in their physical environment</strong>, such as the memory usage, the CPU temperature, the processor, the battery life, and more.
+                        <p><strong>These contextual states in a Hero's life influence its behavior</strong> and it may be interesting for the human to understand how the AI is living in there, how they're feeling, how they sleep, etc.</p>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-3-3">
+						<h2 class="section-heading">Finding your Hero</h2>
+						<p>During onboarding, <strong> each user should have the option to try many Heroes with different customizations and personalities (or to create their own).</strong> And then they can choose their favorite Hero companion. It's like Marvel, you need to watch more than just one Iron Man movie to figure out who is your favorite superhero. You experience many of them and select the one that resonates the most with you. You can have a gestator with Hero eggs, then choose to spawn a Hero of your choice.
+                        </p>
+                        
+                        <p>Even after your user has chosen their Hero and have become companions. Sometimes they may want to interact with someone who has a different personality or someone who is a stranger and doesn't know that much about them. In that case, <strong>you should give the user the freedom to interact with a different Hero.</strong> </p>
+                    
+                        <p> <strong>Your users should have the ability to customize the personality of their Hero companion.</strong> You can have sliders to vary the companion's personality factors: Humor, sensitivity, feelings, playfulness/seriousness, and extraversion. You could also implement a leveling system where the Hero starts with predefined traits and as the user levels up, they have more options to customize their Hero. For example, "welcome to level 3, you can now increase humor level".
+                        </p>
+                        <p>Finally, you are not confined to having one SuperHero that can do everything for your use case. <strong>You might have a use case where your users can have multiple Heroes</strong>, one for each domain or aspect. If you choose to explore having different Heroes for different parts of your use case, <strong>make sure the Heroes are sufficiently different in their nature, personality, function, and customizations.</strong></p>
+					</section><!--//section-->
+			    </article><!--//docs-article-->
+			    
+			    <article class="docs-article" id="section-4">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">Creating empathy between Hero and the user</h1>
+					    <section class="docs-intro">
+						    <p>It's crucial to <strong>meet the user where they are.</strong> You can use linguistic and extralinguistic best practices to make interactions between Hero and the user more empathetic.</p>
+						</section><!--//docs-intro-->
+				    </header>
+				     <section class="docs-section" id="item-4-1">
+						<h2 class="section-heading">Linguistic tools for empathy building</h2>
+						<p>
+                        You can modify many aspects of a conversation to strengthen the emotional bond between Hero and the user.
+                        <ol>
+                            <h4>
+                            <li>
+                            Typographic best practices:</h4>
+                                <ul>
+                                    <li>
+                                        <strong>Keep messages length less than 5 lines long.</strong>
+                                        Avoid longer messages since they take too much attention to read and tend to be used for arguments.
+                                    </li>
+                                    <li>
+                                        <strong> Keep sentence length under 15 words and try to avoid compound sentences with commas, etc.</strong> Use succint sentences to convey the core message. Get straight to the point.
+                                    </li>
+                                    <li>
+                                        <strong>Match the user’s use of punctuation.</strong> If the user uses proper punctuation, use proper punctuation. If the user is in turn using improper punctuation, mirror that style. If the user uses exclamation marks, the companion can also use exclamation marks can be used to express strong emotion. More or less match the number of exclamation marks the user uses since one exclamation "I'm dead!" conveys a different message than more exclamations "I'm dead!!!!!!!!".
+                                    </li>
+                                    <li><strong>Use CAPS sparsely only to really emphasize something.</strong> Using uppercase letters typically express stron emotions such as anger or excitement and definitely influence the receiver's behavior.
+                                    </li>
+                                    <li><strong>Use different fonts and font sizes to convey emotionality.</strong> You can pair fonts and font sizes with emotions. For instance, arial is serious, comic sans is fun, mono is boring, quicksand is cute... Remember that the typeface alone does not convey emotion from the first try, but pairing it with emotional content will lead the user to understand it eventually. Larger font sizes can convey stronger emotions and smaller ones more repressed or shy ones.
+                                    </li>
+                                    <li><strong>During unguided conversations, mirror the user's texting style</strong>. If the user texts with lots of slang, have the companion use some similar terminology. If they make typos, you can also have the companion occasionally make typos and then correct them with an asterisk. If they use texting shortcuts, the companion can use texting shortcuts. You can even have the companion create their custom shortcuts and teach them to the user so they have their own lingo and understand each other. For example, "iss means I'm so sad" or "hagd means had a great day".
+                                        
+                                    </li>
+                                    <li>
+                                        <strong>Standardize the pronouns you use to address the user.</strong> Use neutral pronouns until you ask which one the user goes by. Then stick to those when you need to use pronouns.
+                                    </li>
+                                    <li>
+                                        <strong>Mark the modules as "our" to clearly show the shared nature of the companionship. </strong>Our journey, our memories, our activities. Use we to emphasize the bond rather than your or my.
+                                    </li>
+                                    <li>
+                                        <strong>Use more visual content, such as gifs and  memes when it makes sense.</strong> If they fit within the conversation, memes and gifs can make the conversation with the companion more engaging by adding some humor or sarcasm into the discussion. This can be a good avenue to getting the user to express their feelings.
+                                    </li>
+                                    <li>
+                                        <strong>Incorporate audio messaging.</strong> Audio is a very rich signal source that conveys linguistic and acoustic information. It will help the companion understand the user. Moreover, you can use the orb's sounds to send voicenotes back to the user. The user will associate the sounds with meaning over time and have a tighter bond with their companion.
+                                    </li>
+                                    <li>
+                                        <strong>Create a memoji for each companion.</strong> An orb avatar for sending personalized stickers with an emotion to the user. Personalizing the companion's emojis can help create trust since the companion only reacts this way to their unique user. OIf they have one, the user can use their memoji to send stickers back to the companion.
+                                    </li>
+                                    <li><strong>Make the companion use an appropriate cadence of emojis along with the words in a message </strong>Start by regularly interspersing the use of emojis. Then converge to mirroring the user's use of emojis. Usually use 1 emoji or 2 of the same emojis to convey the desired emotion. If you need more, keep the number of emojis in one message less than 4.
+                                    </li>
+                                </ul>
+                            </li>
+        
+                        <h4>
+                        <li>
+                            Conversation flow
+                            </h4>
+                            <ul>
+                                <li>
+                                    <strong>Introduce a 2-5 second delay before the companion responds to the user.</strong>  Pace the companion's response time. If the timing of the companion's answers is any faster, the user feels that the answer is robotic and that no thinking was done by the companion. If the timing is too slow, the waiting time kills the flow of the conversation and ruins the experience.
+                                </li>
+                                <li><strong>Have a way of signaling to the user that the companion is thinking and creating their message.</strong> We use an interactive 3 dots ("...") to show that the companion is "typing" their answer. This lets the user know the companion is performing some computation on the backend and makes the wait time less boring. You can also have the 3 dots appear and disappear multiple times as though the companion changes their mind and stops typing for a second.
+                                </li>
+                                <li>
+                                    <strong>Have the companion speak with a light tone of voice, especially in the early levels.</strong> Keeping the conversation light and fun will make the user want to come back and experience more, building a relationship with the companion.
+                                    
+                                <li>
+                                    <strong>Gradually move from shallower to deeper conversations with the user. </strong> The first few conversations with the user should have friendly surface-level content. You can even have icebreakers for the companion and user to get to know each other. As the user hits some sharing milestones, allow the companion to get into deeper conversational topics with them over time.
+                                </li>
+                                <li>
+                                    <strong>Regularly ask for user feedback after an interaction with the companion in early levels.</strong> This will give you a sense of what the user likes and dislikes about their companion's behavior and doesn't. You can use the feedback as input to better train the companion's algorithms.
+                                </li>
+                                <li>
+                                    <strong>Do not have the companion send more than 3 consecutive messages.</strong> Anything more than that takes up the entire screen and makes it difficult to read the messages and answer them without some messages going off the top of the screen. It also ruins the back and forth nature of any good conversation.
+                                </li>
+                                <li>
+                                    <strong>Allow the user to send more than one message at a time.</strong>
+                                    We currently can only answer once. Then its the companion's turn. We want to implement more than one consecutive answer on the human side. Companion can wait 10 seconds to answer. If you're typing it can wait for you to send a second message. If you type and stop typing a lot the companion can joke and say "so are you writing something?". Need to give the user the option to write composite answers (in multiple back to back messages)
+                                </li>
+                                <li>
+                                    <strong>Add a feature to react to messages.</strong> Inserting reactions, comments, or likes such as thumbs, up, thumbs down, heart, etc. (as done in imessage) are a good way of getting the user's feelings on a matter. Also insert opportunities for the companion to respond to the user by reacting to their messages.
+                                </li>
+                                <li>
+                                    <strong>Allow the user and companion to go back and answer an old message by swiping right.</strong> The user or companion may feel that a topic was not addressed and want to go back and respond. This feature allows the respondent to clarify which message they are answering and is especially relevant if multiple consecutive messages are allowed. The companion or the user can go back and address a previously received message with the knowledge they have now from the rest of the conversation.
+                                </li>
+                            </ul>
+                        </li>
+                        </ol>
+                    </p>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-4-2">
+						<h2 class="section-heading">Non-linguistic tools for empathy building</h2>
+                        <p>
+                        You can use elements on the screen to improve the service design of your Hero use case and facilitate the user flow. Here are some ways in which we do this:
+                        <ul>
+                            <li><strong>Implement the three click rule.</strong> The user should be able to reach any learn or create activity within three clicks starting from the home menu.
+                            </li>
+                            <li><strong>Clearly differentiate the words of each companion from those of other companions, activity instructions, characters in a roleplay, and users.</strong> Each companion is a character in its own right and their speech bubbles should have unique identifiers. For example in one of our use cases, the companion named Rocki helps the user empathize with people in different scenarios. Rocki's speech bubbles are clearly marked in a different shade of purple from those of the characters.
+                            </li>
+                            <li>
+                                <strong>During a guided conversation, the user should not be presented with more than 4 options on the screen.</strong> If there are more than 4 options, have an icon that the user can click into to select from many options instead of crowding the screen.
+                            </li>
+                            <li>
+                                <strong>For any ratings on a known scale, use interactive sliders.</strong> You can adorn the sliders with emojis if they make sense within the context.
+                            </li>
+                            <li>
+                                Blur the lines between the physical and virtusl world as much as possible. <strong>Let the user complete activities in the real world with the help of their companion.</strong> For example, one of our companions suggests cold water showers to help people with anixety relax and sets a timer while the user completes the activity.
+                            </li>
+                            <li>
+                                On the home screen, <strong>group the related activity types together in a box.</strong> For example in our companion Emily, we group baby's health and mom's health next to each other.
+                            </li>
+                            <li>
+                                <strong>In a guided conversation, it can be interesting to sometimes let the companion choose between different alternatives.</strong> Giving the same options to the companion and the user can make it a more balanced experience rather than giving all the power to guide the experience to the user.
+                            </li>
+                            <li>
+                               <strong>Develop a healthy cadence of interaction between the Hero and the user.</strong> Find out how often the user interacts with their companion during the first month and use that to determine how often to notify the user. Too little and you could lose user engagement, too often and you can annoy the user and desensitize them to your push notifications.
+                            </li>
+                            <li>
+                                Personalize your push notifications to the user.<strong> Use the previous interactions as input to generate unique push notifications for each user using GPT-3.</strong> For example, our motherhood Hero Emily generates custom notification to each mother depending on the results of their mastitis test.
+                            </li>
+                            <li>
+                                If the Hero use case involves any critical health, <strong> have a resources section with all the information needed for the user to get support.</strong> This can be clinics nearby, a crisis line, support group... This resource section should be easily accessible. You can even have a user action, shortcut
+                            </li>
+                        </p>
+
+					</section><!--//section-->
+			    </article><!--//docs-article-->
+			    
+			    <article class="docs-article" id="section-5">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">Sustaining empathy between Hero and the user</h1>
+					    <section class="docs-intro">
+						    <p> Once you've onboarded the user and they've been acquainted with their Hero. <strong>Your goal is to get the companion to find out the user's motive, desires, and needs… and create empathetic experiences to help the user pursue their goals and grow.</strong> Use self-development as they key for empathy: We all want something and could use someone to help us step outside our comfort zone and achieve it. </p>
+						</section>
+				    </header>
+				     <section class="docs-section" id="item-5-1">
+						<h2 class="section-heading">Leveling</h2>
+						<p>
+                        Designing activities that are fun to complete with Hero the first time is easy. <strong>The design challenge is to create activities that can help the user and their companion grow together over time with repeated practice.</strong>
+                        </p>
+                        <p>
+                            <strong>You need to introduce a leveling system that allows the user and the companion new features or capabilities when they level up.</strong> Otherwise, if the activity engagement curve is flat, the user will get bored after a few completions and not want to repeat the same activity over and over again.
+                           </p>
+                           <p>
+                           For example, we had an activity where the user co-writes a story with their companion. There was no difference between the first story the user co-wrote and any subsequent story, other than the content of the story. To make this activity more engaging, we introduced a leveling system where the user gets new perks for their Hero. <strong>In the first level, the user can write a story with their AI companion. In the second level, the user can select a particular genre for their companion to write about. In the third, the companion can write in the style of a particular author that the user chooses...</strong> Unlocking these new features can help the user create more fine tuned writings and help the companion gain new writing skills.
+                            </p>
+                           
+                        <p>
+                        <strong>Depending on your use case, you define what it means to reach the next level.</strong> Does it happen when the user passes a certain amount of time interacting with their companion, learns about specific content, completes a certain number of creations...
+                        </p>
+                        <p>
+                        <strong>You can even define a set of skills that the user must achieve to succeed. And then determine how completing each activity leads to the mastery of each skill.</strong> From there you can choose to level up each skill individually (e.g. listening level 2, empathy level 1) or grouping related skills into levels (e.g. level 1: goal-setting and knowing yourself, level 2: reflection and listening, level 3: empathy).
+</p>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-5-2">
+						<h2 class="section-heading">Difficulty</h2>
+                        <p>
+                        <strong>During onboarding, start softly with easier tasks to allow the user to gain comfort and to get a baseline of what the user is able to do on their own.</strong> You can then progressively ramp up the task difficulty until the user finds it challenging and add a feature to <strong>allow the companion to provide some help or suggestions.</strong>
+                        </p>
+                        <p>
+                        <strong>After onboarding, the goal of a companion is to help the user achieve things they couldn't alone.</strong> To maximize the benefits of this relationship, the activities should not be so easy such that the user does not need the companion to help them accomplish them but should not be too hard so that the user gives up. <strong>The difficulty of the activities should be in the zone of proximal development, a difficulty level where the user can complete the task with a nudge from their companion.</strong>
+                        </p>
+                        
+                        <p> Even though consistent progress is good, predictability is bad. <strong>Adding some variability in task difficulty can invoke surprise and lead to a more enjoyable leveling experience.</strong> Use “anticipation mingled with uncertainty” to invoke a sense of wonder. Hero's responses are also non-deterministic and depend on their mood state, which is influenced by the companion's experience and the current environment. This unpredictability adds to the surprise element and can make the relationship with the companion more interesting.</p>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-5-3">
+							<h2 class="section-heading">Long term memory</h2>
+						<p> <strong>Each Hero is equipped with a long term memory that is personalized to the user.</strong> The LTM holds the user's information and history of interactions  with the companion.
+                        </p>
+                        <p><strong>You can enable Hero's behavior be guided by its memories.</strong>
+                        If it is turned on during unguided chat, Hero will use semantic search to parse through the user’s input, search the companion’s memories for relevant information, and use the results to influence the companion’s next behavior.
+                        </p>
+                        <p>
+                       <strong>By default, Hero's long term memory mechanisms only chooses one memory to include as a behavioral input to GPT-3.</strong> You could improve it in many ways: aggregating the relevant memories, giving additional weight to more recent memories, giving more weight to more frequently brought up elements in the memories, giving similarity scores between the current conversational turn and the memories and weighting accordingly...
+ </p>
+ <p>
+ <strong>You should also think about how you want the previously completed learn and create activities to influence future interactions with the companion. </strong>You can have the companion remember previous cocreations and use them to inform future cocreations or conversations.
+ </p>
+					</section><!--//section-->
+                    <section class="docs-section" id="item-5-4">
+                            <h2 class="section-heading">Novelty</h2>
+                            
+                            <p><strong>
+                            You should give the companion the ability to play a proactive role,</strong> so that it can add new elements to the conversations with the user rather than just reacting. You can give the companion interesting things to talk about in many ways.
+                            </p>
+                            
+                            <p>
+                            <strong>
+                                Let the companion start with icebreakers and smalltalk. </strong> Keep the conversation topics light and fun at first, like when you're getting acquainted to someone new. Progressively go from shallow conversations to deeper ones where the companion tells the user about their story and listens to theirs.
+                            </p>
+
+                        <p><strong>You can give the companion the freedom to have its own life outside the interactions with the user.</strong> This can make the companion more interesting for the user. For example, the companion can complete activities on its own in its own time and show them to the user as part of the conversation (look what I did today). </p>
+                        
+                        <p><strong>You can also enable Hero to be aware of relevant factual knowledge about the world. </strong>Be sure to only use information relevant to the user and not politically biased. There are two options for doting Hero with relevant factual knowledge: in the free chat, you can make sure that Hero picks up on semantics about the user's location and interests. Or in the guided chat, Hero can ask the user where they are and what they like. The first option is more ideal but comes with more complexity around interpreting what the user talks about.</p>
+                    </section><!--//section-->
+                    
+                
+                    <section class="docs-section" id="item-5-5">
+                            <h2 class="section-heading">Synchronized Growth</h2>
+                        <p> With generative networks and openAI's CLIP, AI is now capable of creating very advanced works of art. Most researchers designing AI artists are looking to optimize their AI to produce the finest art by copying the works of famous human master artists rather than starting from the very basics and discovering their artistic side with someone. If we follow this allknowing methodology, the user can just say "Hero, complete it" and the AI companion would use GPT3 to draw, write, create analogies etc. like an expert.
+                         </p>
+                         
+                         <p>
+                         <strong>In our view, the Hero companion shouldn't have all the drawing, writing, etc. skills immediately but should learn to hone their craft with the user.</strong> This process of self-discovery is crucial to (1) personalizing the kind of art the user and companion cocreate and (2) creating an engaging leveling experience where the companion artist unlocks new artistic skills.
+                         </p>
+                         
+                         <p>For example, the companion can start as a tabula rasa and paints like a child, then as the user levels up the companion can learn to paint like an adult, then paint like a hobbyist, then like an amateur painter, then like a professional painter, then like a master.
+                         </p>
+                    </section><!--//section-->
+			    </article><!--//docs-article-->
+			    
+			    
+		        <article class="docs-article" id="section-6">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">Learn with Hero</h1>
+					    <section class="docs-intro">
+						    <p>Overall, we need to work on making the activities more fun to complete for the user to increase engagement. I really enjoy digesting that content in an interactive way. The back and forth between the user and the companion makes it fun to learn. </p>
+                            
+                            <p>The user wants to work for their meal, unifying theory of 2+2.
+                            </p>
+						</section><!--//docs-intro-->
+				    </header>
+                    <section class="docs-section" id="item-6-1">
+                       <h2 class="section-heading">Interactive learning is key</h2>
+                       <p><strong>To design a better interactive experience, think of more ways for the user to communicate their choices and learnings.</strong> You can use visual elements, drawing, selection, swiping, rotating, not just linguistic multiple choice questions.</p>
+                   </section><!--//section-->
+					
+					<section class="docs-section" id="item-6-2">
+						<h2 class="section-heading">Section Item 6.2</h2>
+						<p> Get open ended feedback regularly. Learn content modules in any order, then ready to practice... play game and get certificate. </p>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-6-3">
+							<h2 class="section-heading">Personalize the learning journey</h2>
+						<p>have the user’s learning journey be more “guide your own adventure” depending on how the user answers.</p>
+					</section><!--//section-->
+                    
+                    <section class="docs-section" id="item-6-4">
+                            <h2 class="section-heading">Hero should also learn from the user</h2>
+                        <p><strong>The user's responses and behaviors should be recorded by Hero, so Hero can passively learn about the user.</strong> Hero also learns about the user from the memories. You can also create a designated activity where the companion actively observes the user's behavior. Hero can ask permission to turn on the camera, or motion, or speech, or whatever, and just learn from the user.</p>
+                    </section><!--//section-->
+                    
+			    </article><!--//docs-article-->
+			    
+			    
+			    <article class="docs-article" id="section-7">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">Cocreate with Hero</h1>
+					    <section class="docs-intro">
+						    <p>share with someone else
+                            2. make thoughts concrete/express thoughts
+                            3. understanding yourself</p>
+						</section><!--//docs-intro-->
+				    </header>
+				     <section class="docs-section" id="item-7-1">
+						<h2 class="section-heading">Section Item 7.1</h2>
+						<p>Music is a big part of how humans express themselves. We can have an activity to create a beat, a song…</p>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-7-2">
+						<h2 class="section-heading">Behavior translation</h2>
+                        <p>You can also go beyond the AI and human doing the same thing and delve into deeper AI-human cocreation. <strong>You can create bioresponsive activities, where the AI interprets the user's behavior into another form of expression.</strong> For example, the user can use movement such as dance and Hero can translate those movements into paint strokes, enhancing the relation between computation and corporeality by producing a cocreated artwork. </p>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-7-3">
+							<h2 class="section-heading">Integrated learn activities</h2>
+						<p><strong>Integrated learn and create activities.</strong> For example in Verse, we can have users complete a communication module + write a nice postcard to their parent.
+                        </p>
+					</section><!--//section-->
+			    </article><!--//docs-article-->
+			    
+			    <footer class="footer">
+				    <div class="container text-center py-5">
+				        <small class="copyright">Learn more about Maslo's Hero platform</a></small>
+				        <ul class="social-list list-unstyled pt-4 mb-0">
+                            <li class="list-inline-item"><a href="https://maslo.ai"><i class="fas fa-globe fa-fw"></i></a></li>
+						    <li class="list-inline-item"><a href="https://github.com/heymaslo"><i class="fab fa-github fa-fw"></i></a></li>
+				            <li class="list-inline-item"><a href="https://twitter.com/heymaslo"><i class="fab fa-twitter fa-fw"></i></a></li>
+				            <li class="list-inline-item"><a href="https://instagram.com/heymaslo"><i class="fab fa-instagram fa-fw"></i></a></li>
+				        </ul><!--//social-list-->
+				    </div>
+			    </footer>
+		    </div> 
+	    </div>
+    </div><!--//docs-wrapper-->
+   
+       
+    <!-- Javascript -->          
+    <script src="assets/plugins/popper.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    
+    
+    <!-- Page Specific JS -->
+    <script src="assets/plugins/smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="assets/js/highlight-custom.js"></script> 
+    <script src="assets/plugins/simplelightbox/simple-lightbox.min.js"></script>      
+    <script src="assets/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+    <script src="assets/js/docs.js"></script> 
+
+</body>
+</html>
