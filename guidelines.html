@@ -249,17 +249,26 @@
 					
 					<section class="docs-section" id="item-3-2">
 						<h2 class="section-heading">The life of a Hero</h2>
+                        
+                        <img width=80% src="assets/images/signal_process_content.png"></img>
+
                         <p> Each Hero has a life beyond the interaction with the human user. Like biological creatures, <strong>Hero AIs are sensitive to signals in their physical environment</strong>, such as the memory usage, the CPU temperature, the processor, the battery life, and more.
                         <p><strong>These contextual states in a Hero's life influence its behavior</strong> and it may be interesting for the human to understand how the AI is living in there, how they're feeling, how they sleep, etc.</p>
 					</section><!--//section-->
 					
 					<section class="docs-section" id="item-3-3">
 						<h2 class="section-heading">Finding your Hero</h2>
-						<p>During onboarding, <strong> each user should have the option to try many Heroes with different customizations and personalities (or to create their own).</strong> And then they can choose their favorite Hero companion. It's like Marvel, you need to watch more than just one Iron Man movie to figure out who is your favorite superhero. You experience many of them and select the one that resonates the most with you. You can have a gestator with Hero eggs, then choose to spawn a Hero of your choice.
-                        </p>
                         
+                        <img width= 90% height=auto src="assets/images/choosehero.png"></img>
+                        
+                        <p>
+                        During onboarding, <strong> each user should have the option to try many Heroes with different customizations and personalities (or to create their own).</strong> And then they can choose their favorite Hero companion. It's like Marvel, you need to watch more than just one Iron Man movie to figure out who is your favorite superhero. You experience many of them and select the one that resonates the most with you. You can have a gestator with Hero eggs, then choose to spawn a Hero of your choice.
+                        </p>
+
                         <p>Even after your user has chosen their Hero and have become companions. Sometimes they may want to interact with someone who has a different personality or someone who is a stranger and doesn't know that much about them. In that case, <strong>you should give the user the freedom to interact with a different Hero.</strong> </p>
-                    
+    
+                        <img width=30% src="assets/images/customizeheropersonality.png"></img>
+
                         <p> <strong>Your users should have the ability to customize the personality of their Hero companion.</strong> You can have sliders to vary the companion's personality factors: Humor, sensitivity, feelings, playfulness/seriousness, and extraversion. You could also implement a leveling system where the Hero starts with predefined traits and as the user levels up, they have more options to customize their Hero. For example, "welcome to level 3, you can now increase humor level".
                         </p>
                         <p>Finally, you are not confined to having one SuperHero that can do everything for your use case. <strong>You might have a use case where your users can have multiple Heroes</strong>, one for each domain or aspect. If you choose to explore having different Heroes for different parts of your use case, <strong>make sure the Heroes are sufficiently different in their nature, personality, function, and customizations.</strong></p>
@@ -283,8 +292,11 @@
                             Typographic best practices:</h4>
                                 <ul>
                                     <li>
+                                        <div>
                                         <strong>Keep messages length less than 5 lines long.</strong>
                                         Avoid longer messages since they take too much attention to read and tend to be used for arguments.
+                                        </div>
+                                        <img width=70% src="assets/images/messagelength.png"></img>
                                     </li>
                                     <li>
                                         <strong> Keep sentence length under 15 words and try to avoid compound sentences with commas, etc.</strong> Use succint sentences to convey the core message. Get straight to the point.
@@ -297,13 +309,14 @@
                                     <li><strong>Use different fonts and font sizes to convey emotionality.</strong> You can pair fonts and font sizes with emotions. For instance, arial is serious, comic sans is fun, mono is boring, quicksand is cute... Remember that the typeface alone does not convey emotion from the first try, but pairing it with emotional content will lead the user to understand it eventually. Larger font sizes can convey stronger emotions and smaller ones more repressed or shy ones.
                                     </li>
                                     <li><strong>During unguided conversations, mirror the user's texting style</strong>. If the user texts with lots of slang, have the companion use some similar terminology. If they make typos, you can also have the companion occasionally make typos and then correct them with an asterisk. If they use texting shortcuts, the companion can use texting shortcuts. You can even have the companion create their custom shortcuts and teach them to the user so they have their own lingo and understand each other. For example, "iss means I'm so sad" or "hagd means had a great day".
-                                        
+                                    <img width=90% src="assets/images/mirrortextingstyle.png"></img>
                                     </li>
                                     <li>
                                         <strong>Standardize the pronouns you use to address the user.</strong> Use neutral pronouns until you ask which one the user goes by. Then stick to those when you need to use pronouns.
                                     </li>
                                     <li>
                                         <strong>Mark the modules as "our" to clearly show the shared nature of the companionship. </strong>Our journey, our memories, our activities. Use we to emphasize the bond rather than your or my.
+                                        <img width=70% src="assets/images/ourcompanionship.png"></img>
                                     </li>
                                     <li>
                                         <strong>Use more visual content, such as gifs and  memes when it makes sense.</strong> If they fit within the conversation, memes and gifs can make the conversation with the companion more engaging by adding some humor or sarcasm into the discussion. This can be a good avenue to getting the user to express their feelings.
@@ -314,7 +327,7 @@
                                     <li>
                                         <strong>Create a memoji for each companion.</strong> An orb avatar for sending personalized stickers with an emotion to the user. Personalizing the companion's emojis can help create trust since the companion only reacts this way to their unique user. OIf they have one, the user can use their memoji to send stickers back to the companion.
                                     </li>
-                                    <li><strong>Make the companion use an appropriate cadence of emojis along with the words in a message </strong>Start by regularly interspersing the use of emojis. Then converge to mirroring the user's use of emojis. Usually use 1 emoji or 2 of the same emojis to convey the desired emotion. If you need more, keep the number of emojis in one message less than 4.
+                                    <li><strong>Make the companion use an appropriate cadence of emojis along with the words in a message </strong>Start by regularly interspersing the use of emojis. Then converge to mirroring the user's use of emojis. Usually use 1 emoji or 2 of the same emojis to convey the desired emotion. If you need more, keep the number of emojis in one message less than 4. Keep in mind certain companion use cases are a better fit than others for emoji use (e.g.: kids' companion vs. career companion).
                                     </li>
                                 </ul>
                             </li>
@@ -328,6 +341,7 @@
                                     <strong>Introduce a 2-5 second delay before the companion responds to the user.</strong>  Pace the companion's response time. If the timing of the companion's answers is any faster, the user feels that the answer is robotic and that no thinking was done by the companion. If the timing is too slow, the waiting time kills the flow of the conversation and ruins the experience.
                                 </li>
                                 <li><strong>Have a way of signaling to the user that the companion is thinking and creating their message.</strong> We use an interactive 3 dots ("...") to show that the companion is "typing" their answer. This lets the user know the companion is performing some computation on the backend and makes the wait time less boring. You can also have the 3 dots appear and disappear multiple times as though the companion changes their mind and stops typing for a second.
+                                    <img width=100% src="assets/images/thinkingtime.png"></img>
                                 </li>
                                 <li>
                                     <strong>Have the companion speak with a light tone of voice, especially in the early levels.</strong> Keeping the conversation light and fun will make the user want to come back and experience more, building a relationship with the companion.
@@ -497,7 +511,7 @@
                    </section><!--//section-->
 					
 					<section class="docs-section" id="item-6-2">
-						<h2 class="section-heading">Section Item 6.2</h2>
+						<h2 class="section-heading">Probe the user's attention</h2>
 						<p> Get open ended feedback regularly. Learn content modules in any order, then ready to practice... play game and get certificate. </p>
 					</section><!--//section-->
 					
